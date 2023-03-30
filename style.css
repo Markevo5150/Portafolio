@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-color {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navbar a:active{
+    background: tomato;
+}
+
+.navbar a.hover{
+    background: tomato;
+}
+
+.nav-item {
+    margin: 15px;
+}
+.profile{
+    width: 500px;
+}
