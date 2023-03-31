@@ -3,22 +3,95 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .nav-color {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;
 
 }
 
-.navbar a:active{
+.navbar a:active {
     background: tomato;
 }
 
-.navbar a.hover{
+.navbar a.hover {
     background: tomato;
+    padding-bottom: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-item {
     margin: 15px;
 }
-.profile{
+
+.profile {
     width: 500px;
+    height: 600px;
+}
+
+.btn {
+    background: linear-gradient(to left bottom, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
+    right: 0;
+    top: 0;
+    height: 50px;
+    width: 180px;
+    border: none;
+    z-index: 1;
+    color: #ffffff;
+    background-color: #ee0979;
+    padding: 0 25px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    
+}
+.enterEmailInput {
+    display: inline;
+    width: 55%;
+    height: 50px;
+    border: none;
+    padding-left: 15px;
+    color: #000000;
+    background-color: #efefef;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;}
+
+.datosGenerales {
+    background-color: #F9F9F9;
+}
+
+.aboutMe {
+    color: #FF9179;
+}
+
+.contactButton {
+    background: linear-gradient(to left bottom, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
+    right: 0;
+    top: 0;
+    height: 50px;
+    width: 180px;
+    border: none;
+    z-index: 1;
+    color: #ffffff;
+    background-color: #ee0979;
+    padding: 0 25px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+span {
+    font-size: 25px;
+}
+h1 {
+    padding-top: 120px;
+}
+
+.introduction {
+    background-color: #000000;
+    margin-top: 0;
+    padding-top: 0;
+    color: #F9F9F9;
+
 }
