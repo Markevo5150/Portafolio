@@ -8,9 +8,9 @@
     background: #000000;
 
 }
-
 .navbar a:active {
-    background: tomato;
+    background: linear-gradient(to left bottom, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
+    transition: 2.0s;
 }
 
 .navbar a.hover {
@@ -26,7 +26,7 @@
 
 .profile {
     width: 500px;
-    height: 600px;
+    height: 750px;
 }
 
 .btn {
@@ -58,7 +58,7 @@
     font-weight: 400;}
 
 .datosGenerales {
-    background-color: #F9F9F9;
+    background-color: #111111;
 }
 
 .aboutMe {
@@ -85,7 +85,7 @@ span {
     font-size: 25px;
 }
 h1 {
-    padding-top: 120px;
+    padding-top: 275px;
 }
 
 .introduction {
@@ -94,4 +94,11 @@ h1 {
     padding-top: 0;
     color: #F9F9F9;
 
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.7s;
 }
