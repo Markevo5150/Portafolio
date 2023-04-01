@@ -1,44 +1,13 @@
+/*General Styles*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.nav-color {
-  background: #000000;
-}
-.navbar a:active {
-  background: linear-gradient(
-    to left bottom,
-    #ee0979,
-    #fc1c62,
-    #ff364a,
-    #ff512f,
-    #ff6a00
-  );
-  transition: 2s;
-}
-
-.navbar a.hover {
-  background: tomato;
-  padding-bottom: 0;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-item {
-  margin: 15px;
+  --main-color: #ff364a;
 }
 
 .btn {
-  background: linear-gradient(
-    to left bottom,
-    #ee0979,
-    #fc1c62,
-    #ff364a,
-    #ff512f,
-    #ff6a00
-  );
+  background-color: var(--main-color);
   right: 0;
   top: 0;
   height: 50px;
@@ -46,13 +15,54 @@
   border: none;
   z-index: 1;
   color: #ffffff;
-  background-color: #ee0979;
   padding: 0 25px;
   font-size: 20px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
+
+/*Navbar*/
+.navbar {
+  background: #111111;
+  border-bottom: 1px solid #111111;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.navbar::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(
+    to left bottom,
+    #ee0979,
+    #fc1c62,
+    #ff364a,
+    #ff512f,
+    #ff6a00
+  );
+}
+.navbar .container-fluid .links-collection div .nav-link {
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: ease-in-out 0.25s;
+}
+.navbar .container-fluid .links-collection div .nav-link:hover {
+  background: var(--main-color) !important;
+}
+
+/*Header*/
+header .container {
+  display: flex;
+  margin-top: 73px;
+}
+
 .enterEmailInput {
+  border-radius: 20px;
   display: inline;
   width: 55%;
   height: 50px;
@@ -112,12 +122,6 @@ h1 {
   margin-top: 0;
   padding-top: 0;
   color: #f9f9f9;
-}
-header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
 }
 
 p {
