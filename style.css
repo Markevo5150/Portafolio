@@ -11,11 +11,11 @@
   right: 0;
   top: 0;
   height: 50px;
-  width: 180px;
+  width: 185px;
   border: none;
   z-index: 1;
   color: #ffffff;
-  padding: 0 25px;
+  padding: 12px 25px;
   font-size: 20px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -62,7 +62,7 @@ header .container {
 }
 
 .enterEmailInput {
-  border-radius: 20px;
+  border-radius: 45px;
   display: inline;
   width: 55%;
   height: 50px;
@@ -87,14 +87,7 @@ header .container {
 }
 
 .contactButton {
-  background: linear-gradient(
-    to left bottom,
-    #ee0979,
-    #fc1c62,
-    #ff364a,
-    #ff512f,
-    #ff6a00
-  );
+  background-color: var(--main-color);
   right: 0;
   top: 0;
   height: 50px;
@@ -102,7 +95,7 @@ header .container {
   border: none;
   z-index: 1;
   color: #ffffff;
-  background-color: #ee0979;
+  /*background-color: #ee0979;*/
   padding: 0 25px;
   font-size: 16px;
   font-weight: 600;
@@ -126,4 +119,11 @@ h1 {
 
 p {
   color: #ffffff;
+}
+
+.emailAdress {
+  text-decoration: underline;
+  margin-left: 30px;
+  font-size: large;
+  color: #f9f9f9;
 }
