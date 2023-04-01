@@ -127,3 +127,20 @@ p {
   font-size: large;
   color: #f9f9f9;
 }
+
+/*.container-md {
+  background-color: #000000;
+}*/
+.habilidades {
+  background-color: #000000;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 35px;
+}
+.skillsDes {
+  display: flex;
+  justify-content: center;
+}
