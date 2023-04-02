@@ -158,6 +158,13 @@ h2 {
   margin-top: 100px;
 }
 .education {
+  display: flex;
   background-color: #000000;
   padding-top: 50px;
+  margin-bottom: 0;
+}
+.jobExperience {
+  display: flex;
+  background-color: #111111;
+  margin-bottom: 0;
 }
