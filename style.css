@@ -169,3 +169,10 @@ h2 {
   justify-content: center;
   padding-top: 50px;
 }
+.personalPro {
+  background-color: #111111;
+}
+.personalProLabel {
+  display: flex;
+  justify-content: center;
+}
