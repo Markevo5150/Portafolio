@@ -155,16 +155,17 @@ h2 {
 .skillsResu {
   display: flex;
   justify-content: space-around;
-  margin-top: 100px;
+  padding: 150px;
 }
 .education {
   display: flex;
   background-color: #000000;
-  padding-top: 50px;
-  margin-bottom: 0;
+  padding-top: 150px;
 }
 .jobExperience {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #111111;
-  margin-bottom: 0;
+  padding: 150px;
 }
