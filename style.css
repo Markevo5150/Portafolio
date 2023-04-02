@@ -64,7 +64,7 @@ header .container {
 .enterEmailInput {
   border-radius: 45px;
   display: inline;
-  width: 55%;
+  width: 185px;
   height: 50px;
   border: none;
   padding-left: 15px;
@@ -77,13 +77,14 @@ header .container {
 
 .datosGenerales {
   background-color: #111111;
+  padding-bottom: 70px;
 }
 
 .aboutMe {
+  padding: 50px;
   color: #ff9179;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
 }
 
 .contactButton {
@@ -100,6 +101,7 @@ header .container {
   font-size: 16px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+  border-radius: 10px;
 }
 
 span {
@@ -133,11 +135,12 @@ p {
 }*/
 .habilidades {
   background-color: #000000;
+  padding-bottom: 50px;
 }
 .skills {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 35px;
 }
 .skillsDes {
@@ -168,4 +171,13 @@ h2 {
   align-items: center;
   background-color: #111111;
   padding: 150px;
+}
+.educationLabel {
+  display: flex;
+  justify-content: center;
+}
+.skillsLabel {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }
