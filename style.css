@@ -146,6 +146,8 @@ p {
 }
 h2 {
   color: #f9f9f9;
+  display: flex;
+  justify-content: flex-start;
 }
 .skillsBox {
   display: flex;
@@ -154,4 +156,8 @@ h2 {
   display: flex;
   justify-content: space-around;
   margin-top: 100px;
+}
+.education {
+  background-color: #000000;
+  padding-top: 50px;
 }
